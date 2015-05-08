@@ -1,0 +1,35 @@
+[25-Jun-2014 13:38:54 UTC] PHP Fatal error:  Call to undefined method Users::delete_mail() in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/delete_mail.php on line 10
+[07-Jul-2014 15:28:01 UTC] PHP Warning:  move_uploaded_file(uploads/furnizori/france.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/add_image.php on line 43
+[07-Jul-2014 15:28:01 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/php3ClsEK' to 'uploads/furnizori/france.jpg' in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/add_image.php on line 43
+[07-Jul-2014 15:31:05 UTC] PHP Warning:  move_uploaded_file(http://www.bursaenergiei.ro/test/uploads/furnizori/france.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: HTTP wrapper does not support writeable connections in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/add_image.php on line 43
+[07-Jul-2014 15:31:05 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpAgGwfo' to 'http://www.bursaenergiei.ro/test/uploads/furnizori/france.jpg' in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/add_image.php on line 43
+[07-Jul-2014 15:32:05 UTC] PHP Warning:  move_uploaded_file(http://www.bursaenergiei.ro/test../../uploads/furnizori/france.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: HTTP wrapper does not support writeable connections in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/add_image.php on line 43
+[07-Jul-2014 15:32:05 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpW4dhhR' to 'http://www.bursaenergiei.ro/test../../uploads/furnizori/france.jpg' in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/add_image.php on line 43
+[07-Jul-2014 15:32:21 UTC] PHP Warning:  move_uploaded_file(http://www.bursaenergiei.ro/test../../uploads/furnizori/france.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: HTTP wrapper does not support writeable connections in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/add_image.php on line 43
+[07-Jul-2014 15:32:21 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpHOWKes' to 'http://www.bursaenergiei.ro/test../../uploads/furnizori/france.jpg' in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/add_image.php on line 43
+[07-Jul-2014 17:08:14 UTC] PHP Fatal error:  Cannot use [] for reading in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare.php on line 117
+[07-Jul-2014 17:08:33 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare.php on line 117
+[07-Jul-2014 17:08:56 UTC] PHP Warning:  move_uploaded_file(uploads/france.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare.php on line 43
+[07-Jul-2014 17:08:56 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpZsS6aS' to 'uploads/france.jpg' in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare.php on line 43
+[18-Jul-2014 11:27:12 UTC] PHP Fatal error:  Call to undefined method Users::get_newsletter_mails() in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/create_newsletter.php on line 88
+[23-Jul-2014 09:53:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INERT INTO `users` (`image`) VALUES ('slide2jpg.jpg')' at line 1' in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare_banner.php:61
+Stack trace:
+#0 /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare_banner.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare_banner.php on line 61
+[23-Jul-2014 09:53:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INERT INTO `users` (`image`) VALUES ('9807020slide2jpg.jpg')' at line 1' in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare_banner.php:61
+Stack trace:
+#0 /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare_banner.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare_banner.php on line 61
+[23-Jul-2014 09:54:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INERT INTO `users` `image` = '6186671slide2jpg.jpg'' at line 1' in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare_banner.php:61
+Stack trace:
+#0 /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare_banner.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare_banner.php on line 61
+[23-Jul-2014 09:57:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INERT INTO `banner` (`image`) VALUES ('4068368slide2jpg.jpg')' at line 1' in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare_banner.php:61
+Stack trace:
+#0 /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare_banner.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare_banner.php on line 61
+[23-Jul-2014 09:59:15 UTC] PHP Fatal error:  Call to undefined method Users::add_banner_image() in /home/rled3635/public_html/bursaenergiei.ro/test/user_pages/admin/administrare_banner.php on line 50

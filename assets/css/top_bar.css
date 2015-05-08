@@ -1,0 +1,138 @@
+@charset "utf-8";
+#top_bar {
+	background-color: #f8f8f8;
+	height: 30px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #aaaaab;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-color: #ededed;
+	line-height: 30px;
+	color: #919191;
+	text-decoration: none;
+}
+#top_bar ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#top_bar ul li {
+	display: block;
+	margin-right: 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #aaaaab;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	margin-left: 0px;
+	height: 12px;
+	float: left;
+	line-height: 12px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+#top_bar ul .user {
+	display: block;
+	margin-right: 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #aaaaab;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	margin-left: 0px;
+	height: 16px;
+	float: left;
+	line-height: 16px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+#top_bar ul .user {
+	color: #919191;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+#top_bar ul li a {
+	color: #919191;
+	text-decoration: none;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+#top_bar ul .user img{
+	max-height: 16px;
+	float: left;
+	padding-right: 5px;
+}
+#top_bar ul li a img{
+	max-height: 12px;
+	float: left;
+	padding-right: 5px;
+}
+#top_bar ul li a:hover {
+	text-decoration: underline;
+}
+#top_bar ul .last {
+	border-right-width: 0px;!important;
+	padding-right: 0px;!important;
+}
+#social-sprites {
+	height: 24px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.sprite {
+	position:relative;
+	width: 24px;
+	height: 24px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 10px;!important;
+	float: left;
+}
+.sprite img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.sprite .top:hover {
+	opacity:0;
+}
+.facebook {
+	background:url(../images/icons/social%20sprites/facebook.png);
+}
+.twitter {
+	background:url(../images/icons/social%20sprites/twitter.png);
+}
+.google-plus {
+	background:url(../images/icons/social%20sprites/google-plus.png);
+}
+.yahoo {
+	background:url(../images/icons/social%20sprites/yahoo.png);
+}
+.facebook:hover {
+	background:url(../images/icons/social%20sprites/facebook-blue.png);
+}
+.twitter:hover {
+	background:url(../images/icons/social%20sprites/twitter-blue.png);
+}
+.google-plus:hover {
+	background:url(../images/icons/social%20sprites/google-plus-blue.png);
+}
+.yahoo:hover {
+	background:url(../images/icons/social%20sprites/yahoo-blue.png);
+}

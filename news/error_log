@@ -1,0 +1,35 @@
+[23-Apr-2015 21:21:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'rled3635'@'localhost' (using password: YES)' in /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php:9
+Stack trace:
+#0 /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php(9): PDO->__construct('mysql:host=loca...', 'rled3635', 'C0ntroLed')
+#1 /home/rled3635/public_html/bursaenergiei.ro/core/init_1.php(5): require('/home/rled3635/...')
+#2 /home/rled3635/public_html/bursaenergiei.ro/news/index.php(2): require('/home/rled3635/...')
+#3 {main}
+  thrown in /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php on line 9
+[23-Apr-2015 22:35:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'rled3635'@'localhost' (using password: YES)' in /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php:9
+Stack trace:
+#0 /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php(9): PDO->__construct('mysql:host=loca...', 'rled3635', 'C0ntroLed')
+#1 /home/rled3635/public_html/bursaenergiei.ro/core/init_1.php(5): require('/home/rled3635/...')
+#2 /home/rled3635/public_html/bursaenergiei.ro/news/viewpost.php(2): require('/home/rled3635/...')
+#3 {main}
+  thrown in /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php on line 9
+[23-Apr-2015 22:46:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'rled3635'@'localhost' (using password: YES)' in /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php:9
+Stack trace:
+#0 /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php(9): PDO->__construct('mysql:host=loca...', 'rled3635', 'C0ntroLed')
+#1 /home/rled3635/public_html/bursaenergiei.ro/core/init_1.php(5): require('/home/rled3635/...')
+#2 /home/rled3635/public_html/bursaenergiei.ro/news/index.php(2): require('/home/rled3635/...')
+#3 {main}
+  thrown in /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php on line 9
+[26-Apr-2015 18:09:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'rled3635'@'localhost' (using password: YES)' in /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php:9
+Stack trace:
+#0 /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php(9): PDO->__construct('mysql:host=loca...', 'rled3635', 'C0ntroLed')
+#1 /home/rled3635/public_html/bursaenergiei.ro/core/init_1.php(5): require('/home/rled3635/...')
+#2 /home/rled3635/public_html/bursaenergiei.ro/news/index.php(2): require('/home/rled3635/...')
+#3 {main}
+  thrown in /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php on line 9
+[26-Apr-2015 18:52:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'rled3635'@'localhost' (using password: YES)' in /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php:9
+Stack trace:
+#0 /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php(9): PDO->__construct('mysql:host=loca...', 'rled3635', 'C0ntroLed')
+#1 /home/rled3635/public_html/bursaenergiei.ro/core/init_1.php(5): require('/home/rled3635/...')
+#2 /home/rled3635/public_html/bursaenergiei.ro/news/index.php(2): require('/home/rled3635/...')
+#3 {main}
+  thrown in /home/rled3635/public_html/bursaenergiei.ro/core/connect/database.php on line 9
